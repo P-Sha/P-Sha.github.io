@@ -1,0 +1,17 @@
+---
+title: "P8105: Interactivity Assignment"
+---
+
+### Assignment #4
+
+#### Problem 1:
+#####  _Creating landing page_
+#####  _creating a page with resume_
+#####  _Adding links to professional accounts, email_
+
+![](https://dash.plotly.com/assets/images/logo-plotly.png)
+
+#### Problem 2:
+##### _Creating a flexdashboard using `plotly`_
+##### ("Instacart" dataset used to create 3 different plots)
+  
