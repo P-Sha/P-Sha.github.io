@@ -8,6 +8,8 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<ps3147@cumc.columbia.com>
     - icon: fa-github fa-lg
-      href: http://github.com/P-Sha/
+      href: https://github.com/P-Sha/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/Purnima-Sharma/
 output:
   html_document

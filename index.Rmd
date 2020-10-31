@@ -1,5 +1,5 @@
 ---
-title: "P8105: Interactivity Assignment"
+title: "P8105: Interactivity"
 ---
 
 ### Assignment #4
@@ -15,6 +15,7 @@ title: "P8105: Interactivity Assignment"
 ##### _Creating a flexdashboard using `plotly`_
 ##### ("Instacart" dataset used to create 3 different plots)  
 
+***
  
 **For further assignment details see the link below.**
 
