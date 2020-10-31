@@ -9,7 +9,7 @@ title: "P8105: Interactivity"
 #####  _creating a page with resume_
 #####  _Adding links to professional accounts, email_
 
-![](https://dash.plotly.com/assets/images/logo-plotly.png)
+<img src="https://dash.plotly.com/assets/images/logo-plotly.png" style="width:50%">
 
 #### Problem 2:
 ##### _Creating a flexdashboard using `plotly`_
