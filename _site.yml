@@ -12,4 +12,5 @@ navbar:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/purnima-sharma-8b25061aa/
 output:
-  html_document
+  html_document:
+    theme: United
