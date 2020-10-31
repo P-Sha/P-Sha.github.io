@@ -13,4 +13,4 @@ navbar:
       href: https://www.linkedin.com/in/purnima-sharma-8b25061aa/
 output:
   html_document:
-    theme: United
+    theme: lumen
