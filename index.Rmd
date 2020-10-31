@@ -13,5 +13,9 @@ title: "P8105: Interactivity Assignment"
 
 #### Problem 2:
 ##### _Creating a flexdashboard using `plotly`_
-##### ("Instacart" dataset used to create 3 different plots)
-  
+##### ("Instacart" dataset used to create 3 different plots)  
+
+ 
+**For further assignment details see the link below.**
+
+* [p8105](https://p8105.com/homework_4.html)

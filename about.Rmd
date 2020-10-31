@@ -1,9 +1,21 @@
 ---
-title: "About"
+title: "Resume"
 ---
 
-### About this site
+### Academic experience
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+* M.S. candidate, Biostatistics, Theory And Models  
+Columbia University Mailman School of Public Health
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+* M.A. Mathematics  
+Western Connecticut State University, Danbury CT  
+
+
+### Profession experience
+* 2003 - current:  Senior Adjunct Faculty, Mathematics   
+  SUNY Westchester Community College, Valhalla N.Y.
+  
+* 9/2011 – 9/2014: Premier tutor, SAT math, SAT Math subject test I and II 	
+	Kaplan Test-prep  Inc.	
+
+	           	
