@@ -1,0 +1,67 @@
+---
+title: "Plotly"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### `Instacart` data graphs using `plotly`
+
+```{r setup, include = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+Load necessary data.
+
+```{r}
+data("instacart")
+
+instacart = 
+  instacart %>% 
+  select(product_id, product_name, aisle, department, reordered) 
+```
+
+# plots for the data.
+
+## 1. Plotly Barchart (top 20 most ordered products)
+
+```{r}
+instacart %>% 
+    count(product_name) %>% 
+    mutate(rank = min_rank(desc(n))) %>% 
+    filter(rank < 20) %>% 
+    mutate(product_name = fct_reorder(product_name, desc(n))) %>% 
+    plot_ly(
+      x = ~product_name, y = ~n,
+      color = ~product_name, type = "bar")
+```
+
+## 2. Plotly Scatterplot (number of items ordered per aisle for aisles with more than 20,000 items ordered).
+
+```{r}
+instacart %>% 
+   count(aisle) %>%
+  filter(n > 20000) %>%
+  mutate(
+    aisle = factor(aisle),
+    aisle = fct_reorder(aisle, n)
+  ) %>% 
+  plot_ly(
+    x = ~aisle, y = ~n, type = "scatter", mode = "markers"
+  )
+```
+
+## 3. Plotly Piechart (most reorders by department)
+
+```{r}
+instacart %>% 
+  group_by(department) %>% 
+  filter(reordered != 0) %>% 
+  plot_ly(
+    labels = ~department, values = ~reordered, type = "pie"
+  )
+```
+
