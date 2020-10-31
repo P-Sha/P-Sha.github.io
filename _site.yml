@@ -10,6 +10,6 @@ navbar:
     - icon: fa-github fa-lg
       href: https://github.com/P-Sha/
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/Purnima-Sharma/
+      href: https://www.linkedin.com/in/purnima-sharma-8b25061aa/
 output:
   html_document
