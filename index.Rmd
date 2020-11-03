@@ -6,20 +6,22 @@ output:
     toc_float: true
 ---
 
-### Assignment #4
+## Assignment #4
 
-#### Problem 1:
+### Problem 1
 #####  _Creating landing page_
 #####  _creating a page with resume_
 #####  _Adding links to professional accounts, email_
 
 <img src="https://dash.plotly.com/assets/images/logo-plotly.png" style="width:50%">
 
-#### Problem 2:
+### Problem 2
 ##### _Creating a flexdashboard using `plotly`_
 ##### ("Instacart" dataset used to create 3 different plots)  
 
 <br><br><br><br>
+
+### Assignment details
  
 **For further assignment details see the link below.**
 
